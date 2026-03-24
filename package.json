@@ -5,7 +5,7 @@
     "version": "6.2.1",
     "main": "./app.js",
     "engines": {
-        "node": "24.x",
+        "node": "20.x",
         "npm": ">=6"
     },
     "repository": {
@@ -23,7 +23,6 @@
     "contributors": [],
     "scripts": {
         "preinstall": "pwd && ./scripts/preinstall",
-        "build": "grunt",
         "start": "node .",
         "start:prod": "pm2 start ecosystem.config.js --env production",
         "test": "grunt test",
