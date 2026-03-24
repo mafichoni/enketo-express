@@ -5,8 +5,8 @@
     "version": "6.2.1",
     "main": "./app.js",
     "engines": {
-        "node": ">=14.8.0 <17",
-        "npm": ">=6 <7"
+        "node": "24.x",
+        "npm": ">=6"
     },
     "repository": {
         "type": "git",
